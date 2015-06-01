@@ -5,5 +5,7 @@ if (process.platform === 'darwin') {
 } else if (process.platform === 'linux') {
 	module.exports = require('xdg-brightness');
 } else {
-	throw new Error('Only OS X and Linux systems are supported');
+	module.exports = function () {
+		throw new Error('Only OS X and Linux systems are supported');
+	};
 }
