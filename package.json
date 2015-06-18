@@ -32,7 +32,7 @@
     "xdg"
   ],
   "dependencies": {
-    "meow": "^3.1.0",
+    "meow": "^3.3.0",
     "osx-brightness": "^3.0.1",
     "to-percent": "^1.0.2",
     "xdg-brightness": "^2.0.1"
