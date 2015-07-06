@@ -10,6 +10,7 @@
 
 [![Build Status](https://travis-ci.org/kevva/brightness.svg?branch=master)](https://travis-ci.org/kevva/brightness)
 
+*See [brightness-cli](https://github.com/kevva/brightness-cli) for the command-line version.*
 
 ## Install
 
@@ -66,21 +67,6 @@ A number between `0` and `1`.
 Type: `function`
 
 Callback that returns nothing but a possible exception.
-
-
-## CLI
-
-```
-$ npm install --global brightness
-```
-
-```
-$ brightness --help
-
-  Example
-    $ brightness
-    $ brightness 0.8
-```
 
 
 ## License
