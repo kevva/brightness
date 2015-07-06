@@ -12,27 +12,20 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "bin": "cli.js",
   "scripts": {
     "test": "node test.js"
   },
   "files": [
-    "cli.js",
     "index.js"
   ],
   "keywords": [
-    "app",
     "brightness",
-    "cli",
-    "cli-app",
-    "interactive",
     "linux",
     "osx",
     "screen",
     "xdg"
   ],
   "dependencies": {
-    "meow": "^3.3.0",
     "osx-brightness": "^3.0.1",
     "to-percent": "^1.0.2",
     "xdg-brightness": "^2.0.1"
