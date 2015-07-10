@@ -5,8 +5,8 @@
   "license": "MIT",
   "repository": "kevva/brightness",
   "author": {
-    "name": "Kevin Martensson",
     "email": "kevinmartensson@gmail.com",
+    "name": "Kevin Martensson",
     "url": "github.com/kevva"
   },
   "engines": {
@@ -26,6 +26,7 @@
     "xdg"
   ],
   "dependencies": {
+    "nircmd": "^1.1.1",
     "osx-brightness": "^3.0.1",
     "to-percent": "^1.0.2",
     "xdg-brightness": "^2.0.1"

@@ -1,5 +1,5 @@
 'use strict';
-var execFile = require('child_process').execFile;
+var nircmd = require('nircmd');
 var toPercent = require('to-percent');
 
 if (process.platform === 'darwin') {
@@ -12,7 +12,7 @@ if (process.platform === 'darwin') {
 			throw new Error('Expected a number between 0 and 1');
 		}
 
-		execFile('./nircmd.exe', ['setbrightness', toPercent(val)], function (err) {
+		nircmd(['setbrightness', toPercent(val)], function (err) {
 			if (err) {
 				cb(err);
 				return;
