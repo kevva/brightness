@@ -6,7 +6,7 @@
 	<br>
 </h1>
 
-> Change screen brightness
+> Change the screen brightness
 
 [![Build Status](https://travis-ci.org/kevva/brightness.svg?branch=master)](https://travis-ci.org/kevva/brightness)
 
@@ -27,7 +27,7 @@ var brightness = require('brightness');
 
 brightness.get(function (err, level) {
 	console.log(level);
-	// 0.5
+	//=> 0.5
 });
 
 brightness.set(0.8, function (err) {
