@@ -20,7 +20,7 @@ if (!process.env.CI) {
 
 			brightness.get(function (err, brightness) {
 				t.assert(!err, err);
-				t.assert(brightness === 0.5);
+				t.assert(Math.round(brightness * 10) / 10 === 0.5);
 			});
 		});
 	});
