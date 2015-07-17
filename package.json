@@ -1,6 +1,6 @@
 {
   "name": "brightness",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Change the screen brightness",
   "license": "MIT",
   "repository": "kevva/brightness",
