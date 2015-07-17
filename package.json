@@ -27,6 +27,7 @@
   ],
   "dependencies": {
     "nircmd": "^1.1.1",
+    "win-brightness": "^1.0.0",
     "osx-brightness": "^3.0.1",
     "to-percent": "^1.0.2",
     "xdg-brightness": "^2.0.1"

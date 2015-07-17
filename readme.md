@@ -40,7 +40,7 @@ brightness.set(0.8, function (err) {
 
 ### .get(callback)
 
-Get brightness level. *Doesn't work on Windows systems.*
+Get brightness level.
 
 #### callback(err, level)
 
