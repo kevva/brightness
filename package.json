@@ -23,6 +23,7 @@
     "linux",
     "osx",
     "screen",
+    "windows",
     "xdg"
   ],
   "dependencies": {
