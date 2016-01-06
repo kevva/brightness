@@ -8,8 +8,6 @@
 
 > Change the screen brightness
 
-[![Build Status](https://travis-ci.org/kevva/brightness.svg?branch=master)](https://travis-ci.org/kevva/brightness)
-
 *See [brightness-cli](https://github.com/kevva/brightness-cli) for the command-line version.*
 
 

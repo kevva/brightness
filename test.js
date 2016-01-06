@@ -1,27 +1,14 @@
-'use strict';
-var test = require('ava');
-var brightness = require('./');
+import pify from 'pify';
+import test from 'ava';
+import fn from './';
 
-if (!process.env.CI) {
-	test('should get brightness', function (t) {
-		t.plan(2);
+test('should get brightness', async t => {
+	const brightness = await pify(fn.get)();
+	t.is(typeof brightness, 'number');
+});
 
-		brightness.get(function (err, brightness) {
-			t.assert(!err, err);
-			t.assert(brightness);
-		});
-	});
-
-	test('should set brightness', function (t) {
-		t.plan(3);
-
-		brightness.set(0.5, function (err) {
-			t.assert(!err, err);
-
-			brightness.get(function (err, brightness) {
-				t.assert(!err, err);
-				t.assert(Math.round(brightness * 10) / 10 === 0.5);
-			});
-		});
-	});
-}
+test('should set brightness', async t => {
+	await pify(fn.set)(0.5);
+	const brightness = await pify(fn.get)();
+	t.is(Math.round(brightness * 10) / 10, 0.5);
+});
