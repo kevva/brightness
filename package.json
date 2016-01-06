@@ -16,7 +16,8 @@
     "test": "xo && ava"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "lib"
   ],
   "keywords": [
     "brightness",
@@ -27,13 +28,14 @@
     "xdg"
   ],
   "dependencies": {
-    "osx-brightness": "^3.0.1",
-    "win-brightness": "^1.0.0",
-    "xdg-brightness": "^2.0.1"
+    "nircmd": "^2.0.0",
+    "osx-brightness": "^4.0.0",
+    "pify": "^2.3.0",
+    "pinkie-promise": "^2.0.0",
+    "wmi-client": "^0.2.0"
   },
   "devDependencies": {
     "ava": "*",
-    "pify": "^2.3.0",
     "xo": "*"
   }
 }

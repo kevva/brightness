@@ -21,14 +21,14 @@ $ npm install --save brightness
 ## Usage
 
 ```js
-var brightness = require('brightness');
+const brightness = require('brightness');
 
-brightness.get(function (err, level) {
+brightness.get().then(level => {
 	console.log(level);
 	//=> 0.5
 });
 
-brightness.set(0.8, function (err) {
+brightness.set(0.8).then(() => {
 	console.log('Changed brightness to 80%');
 });
 ```
@@ -36,21 +36,11 @@ brightness.set(0.8, function (err) {
 
 ## API
 
-### .get(callback)
+### .get()
 
-Get brightness level.
+Returns a promise for the current brightness level.
 
-#### callback(err, level)
-
-Type: `function`
-
-##### level
-
-Type: `number`
-
-Current brightness level.
-
-### .set(level, callback)
+### .set(level)
 
 Set brightness level.
 
@@ -60,12 +50,6 @@ Set brightness level.
 Type: `number`
 
 A number between `0` and `1`.
-
-#### callback(err)
-
-Type: `function`
-
-Callback that returns nothing but a possible exception.
 
 
 ## License
