@@ -8,8 +8,6 @@
 
 > Change the screen brightness
 
-*See [brightness-cli](https://github.com/kevva/brightness-cli) for the command-line version.*
-
 
 ## Install
 
@@ -50,6 +48,11 @@ Set brightness level.
 Type: `number`
 
 A number between `0` and `1`.
+
+
+## Related
+
+* [brightness-cli](https://github.com/kevva/brightness-cli) - CLI for this module
 
 
 ## License
