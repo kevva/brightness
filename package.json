@@ -32,7 +32,8 @@
     "osx-brightness": "^4.0.0",
     "pify": "^2.3.0",
     "pinkie-promise": "^2.0.0",
-    "wmi-client": "^0.2.0"
+    "wmi-client": "^0.2.0",
+    "xbacklight": "^1.0.1"
   },
   "devDependencies": {
     "ava": "*",
