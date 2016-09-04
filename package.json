@@ -10,7 +10,7 @@
     "url": "github.com/kevva"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -31,11 +31,13 @@
     "nircmd": "^2.0.0",
     "osx-brightness": "^4.0.0",
     "pify": "^2.3.0",
-    "pinkie-promise": "^2.0.0",
     "wmi-client": "^0.2.0"
   },
   "devDependencies": {
     "ava": "*",
     "xo": "*"
+  },
+  "xo": {
+    "esnext": true
   }
 }
