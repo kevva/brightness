@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from './';
+import m from '.';
 
 test('should get brightness', async t => {
 	const brightness = await m.get();
