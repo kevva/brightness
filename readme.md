@@ -12,7 +12,7 @@
 ## Install
 
 ```
-$ npm install --save brightness
+$ npm install brightness
 ```
 
 
@@ -36,7 +36,7 @@ brightness.set(0.8).then(() => {
 
 ### .get()
 
-Returns a promise for the current brightness level.
+Returns a `Promise` with the current brightness level.
 
 ### .set(level)
 
@@ -44,7 +44,7 @@ Set brightness level.
 
 #### level
 
-*Required*  
+*Required*<br>
 Type: `number`
 
 A number between `0` and `1`.

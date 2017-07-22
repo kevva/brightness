@@ -1,40 +1,40 @@
 {
-  "name": "brightness",
-  "version": "3.0.0",
-  "description": "Change the screen brightness",
-  "license": "MIT",
-  "repository": "kevva/brightness",
-  "author": {
-    "email": "kevinmartensson@gmail.com",
-    "name": "Kevin Martensson",
-    "url": "github.com/kevva"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js",
-    "lib"
-  ],
-  "keywords": [
-    "brightness",
-    "linux",
-    "osx",
-    "screen",
-    "windows",
-    "xdg"
-  ],
-  "dependencies": {
-    "nircmd": "^2.0.0",
-    "osx-brightness": "^4.0.0",
-    "pify": "^2.3.0",
-    "wmi-client": "^0.2.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+	"name": "brightness",
+	"version": "3.0.0",
+	"description": "Change the screen brightness",
+	"license": "MIT",
+	"repository": "kevva/brightness",
+	"author": {
+		"email": "kevinmartensson@gmail.com",
+		"name": "Kevin Mårtensson",
+		"url": "github.com/kevva"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"lib"
+	],
+	"keywords": [
+		"brightness",
+		"linux",
+		"osx",
+		"screen",
+		"windows",
+		"xdg"
+	],
+	"dependencies": {
+		"nircmd": "^2.0.0",
+		"osx-brightness": "^4.0.0",
+		"pify": "^3.0.0",
+		"wmi-client": "^0.2.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }
